@@ -1,0 +1,16 @@
+CUE: MODELOS DE PRUEBA
+DRILLING: PRUEBAS DE APLICACIÓN AL MODELO PRODUCTOS EN DJANGO
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los videos del CUE: Modelos 
+de Prueba
+EJERCICIO:
+Partiendo del ejercicio creado en los Rebound y Drilling del CUE anterior, realice las siguientes pruebas 
+de aplicación a los modelos de Fábrica y Producto:
+1. Realice la prueba unitaria llamada test_model_content_fabrica, de verificación de datos 
+para el modelo de Fábrica que se crean en una función setUpTestData.
+2. Realice la prueba unitaria llamada test_model_content_producto, de verificación de datos 
+para el modelo de Producto que se crean en una función setUpTestData.
+3. Crear una prueba unitaria que verifique el código de respuesta HTTP 200 de la URL 
+/producto/.
+4. Realice una prueba unitaria de verificación de contenido al llamar el nombre de la URL mostrar-pro, verificando la respuesta HTTP 200, verificación de plantilla correcta, y conformación de 
+contenido HTML esperado que sea coincidente con la plantilla. Por ejemplo: "Información de 
+Productos"
